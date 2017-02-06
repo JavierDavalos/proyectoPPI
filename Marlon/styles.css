@@ -19,7 +19,8 @@ q:before, q:after { content:''; }
 /* ************************************************************************************************************* */
 
 *{
-	font-family: verdana;
+	font-family: verdana, sans-serif;
+	font-size: 12 em;
 }
 
 /********** HEADER **********************************************/
@@ -67,7 +68,7 @@ header div h1{
 /********** NAV *************************************************/
 nav{
 	margin-top: 10px;
-	background-color: #9192E3;
+	background-color: white;
 	padding: 1% 5% 5% 5%;
 }
 
@@ -76,10 +77,15 @@ nav div{
 	text-align: center;
 	padding: 1% 1%;
 }
-
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto/9;
+}
 #facebook, #twitter{
 	float: right;	
-	background-color: red;
+	background-color: white;
+	width: 4%;
 }
 
 #inicio{
@@ -92,8 +98,8 @@ nav div{
 }
 
 #informacionUsuario{
-	background-color: green;
-	width: 20%;
+	background-color: white;
+	width: 3%;
 }
 
 /********** ASIDE ***********************************************/
@@ -123,7 +129,7 @@ aside{
 section{
 	width: 58%;
 	margin: auto;
-	background-color: #BABBEB;
+	background-color: lightgrey;
 	padding: 1% 1%;
 	height: 500px;
 }
@@ -143,10 +149,15 @@ section{
 	text-align: left;	
 	background-color: yellow;
 }
-
+article{
+	margin: 5px;
+	padding: 10px;
+	background-color: white;
+}
 /********* FOOTER ***********************************************/
 footer{
-	background-color:  gray;
+	background-color:  black;
+	color : white;
 	padding: 1% 5% 1% 5%;
 }
 
