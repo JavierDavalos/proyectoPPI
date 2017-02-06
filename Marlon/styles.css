@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Reseteo al formato html por defecto de los navegadores */
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+	padding: 0;
+ 	margin: 0;
+ 	font-size: 100%;
+ 	font-weight: normal;
+}
+
+table {border-collapse: collapse; border-spacing: 0; }
+
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 0em; list-style: decimal; }
+ul { padding-left: 0em; list-style:square; }
+q:before, q:after { content:''; }
+/* ************************************************************************************************************* */
+
+*{
+	font-family: verdana;
+}
+
+/********** HEADER **********************************************/
+header{
+	background: -webkit-linear-gradient(top, #5456D5, #A8A9DC);
+	background: -moz-linear-gradient(top, #5456D5, #A8A9DC);
+	background: -ms-linear-gradient(top, #5456D5, #A8A9DC);
+	background: -o-linear-gradient(top, #5456D5, #A8A9DC);
+	background: linear-gradient(top, #5456D5, #A8A9DC);
+
+	width: 80%;
+	padding: 1% 5% 5% 5%;
+	border-radius: 30px;
+	margin: auto;
+}
+
+header div{
+	float: left;
+	text-align: center;
+	padding: 1% 1%;
+}
+
+#headerDivTitulo{
+	width: 73%;
+}
+
+#headerDivLogin{
+	background-color: aqua;
+	width: 10.5%;
+}
+
+#headerDivSignUp{
+	background-color: #6729E2;
+	width: 10.5%;
+	clear: right;
+}
+
+header div h1{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #A501BA;
+	text-shadow: #AC4DB9 5px 5px 5px;
+}
+
+/********** NAV *************************************************/
+nav{
+	margin-top: 10px;
+	background-color: #9192E3;
+	padding: 1% 5% 5% 5%;
+}
+
+nav div{
+	float: left;
+	text-align: center;
+	padding: 1% 1%;
+}
+
+#facebook, #twitter{
+	float: right;	
+	background-color: red;
+}
+
+#inicio{
+	background-color: blue;
+	width: 20%;
+}
+
+#redesSociales{
+	width: 54%;
+}
+
+#informacionUsuario{
+	background-color: green;
+	width: 20%;
+}
+
+/********** ASIDE ***********************************************/
+
+aside{
+	background: -webkit-radial-gradient(center, #B3B4F6, #5456D5);
+	background: -moz-radial-gradient(center, #B3B4F6, #5456D5);
+	background: -ms-radial-gradient(center, #B3B4F6, #5456D5);
+	background: -o-radial-gradient(center, #B3B4F6, #5456D5);
+	background: radial-gradient(center, #B3B4F6, #5456D5);
+
+	width: 18%;
+	text-align: center;
+	padding: 1% 1%;
+	height: 500px;
+}
+
+#asideIzquierdo{
+	float: left;
+}
+
+#asideDerecho{
+	float: right;
+}
+
+/********** SECTION *********************************************/
+section{
+	width: 58%;
+	margin: auto;
+	background-color: #BABBEB;
+	padding: 1% 1%;
+	height: 500px;
+}
+
+#tituloContenido{
+	text-align: center;
+	padding-bottom: 5%
+}
+
+#imagenArticulo{
+	text-align: center;
+	float: right;
+	background-color: red;
+}
+
+#contenido{
+	text-align: left;	
+	background-color: yellow;
+}
+
+/********* FOOTER ***********************************************/
+footer{
+	background-color:  gray;
+	padding: 1% 5% 1% 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
