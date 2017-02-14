@@ -1,0 +1,39 @@
+html, body {
+  background-color: #A4A4A4;
+  padding: 10px;
+}
+
+ table {
+  width: 100%;
+}
+
+caption{
+
+}
+
+td, th {
+  background-color: #F5BCA9;	
+  text-align: center;
+  border: solid 1px #ccc;
+  font-size: 15px;
+  padding: 4px;
+  border-collapse: collapse;
+  border-radius: 2px;
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 768px) {
+  tr {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  td, th {
+    display: block;
+    width: 33.333333333333%;
+    font-size: 20px;
+  }
+  th:first-child {
+    display: none;
+  }
+}
