@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Maquetacion de un formulario</title>
+	<link rel="stylesheet" type="text/css" href="styleForm.css">
+</head>
+<body>
+	<div class="contenedor">
+		<h1>Llene los datos solicitados.</h1>
+		<div class="campo">
+			<label for="partida">Partida</label>
+			<form action="#" method="get"/>
+			<input type="text" id="partida" name="partida" placeholder="Escribe el lugar de partida" />
+		</div>
+		<div class="campo">
+			<label for="destino">Destino</label>
+			<form action="#" method="get"/>
+			<input type="text" id="destino" name="destino" placeholder="Escribe el destino" />
+		</div>
+		<div class="campo">
+			<label for="hora">Hora de partida</label>
+			<form action="#" method="get"/>
+			<input type="text" id="hora" name="hora" placeholder="Escribe la hora de partida" />
+		</div>
+		<div class="campo">
+			<p>Tipo de servicio:</p>
+			<label for="opcion1">Normal</label>
+			<input type="radio" name="opcion" value="1" id="opcion1">
+			<label for="opcion2">Express</label>
+			<input type="radio" name="opcion" value="2" id="opcion2">
+		</div>
+		<div class="campo">
+			<textarea name="desc" id="desc" placeholder="Describe el producto a transportar:"></textarea>
+		</div>
+		<div class="campo">
+			<button type="submit">Registrar</button>
+		</div>
+	</div>
+</body>
+</html>
