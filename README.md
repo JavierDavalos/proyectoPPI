@@ -1,3 +1,5 @@
+#Cargomatic México
+
 ## Sinopsis
 
 Cargomatic México es un proyecto que tiene la finalidad unir al usuario, al momento de enviar paquetes, con la compañía de paquetería al facilitarle y volver de una manera económica y sencilla el proceso de envío de paquetes a lo largo del país. El proyecto está constituido por 2 usuarios, un administrador y un cliente, que interactuan en la lógica del negocio de Cargomatic México. Debido al tiempo de este periodo escolar el proyecto tendrá el alcance de lo siguiente :
@@ -28,8 +30,8 @@ solucionar los problemas del usuario tales como el tiempo de llenado del papeleo
 
 ## Colaboradores
 
-Dávalos Espinosa Javier
-Espinosa Vega Luis Ángel
+Dávalos Espinosa Javier  
+Espinosa Vega Luis Ángel  
 Nuño Rodríguez Marlon Israel
 
 ## Licencia
