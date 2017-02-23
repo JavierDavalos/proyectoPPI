@@ -95,6 +95,10 @@ header div h1{
 	background-color: #DEFF00;
 }
 
+#botini{
+	text-decoration: none;
+}
+
 header div h2{
 	font-size: 1.1em;
 	width: 100%;

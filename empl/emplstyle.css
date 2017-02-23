@@ -327,72 +327,25 @@ section div{
 	margin-top: 5%;
 }
 
-#tit{
-	color: #000;
-	text-align: center;
-	padding: 4px;
-}
-.form-register{
-	width: 95%;
-	max-width: 500px;
-	margin: auto;
-	background: white;
-	border-radius: 6px; 
+ table {
+  width: 100%;
 }
 
-.titulo{
-	background-color: #5F04B4;
-	color: #fff;
-	padding: 20px;
+caption{
+	background-color: #819FF7;
 	text-align: center;
-	font-weight: 100;
-	font-size: 30px;
-	border-top-left-radius: 6px;
-	border-top-right-radius: 6px;
-	border-bottom: 5px solid blue;
-}
-
-.contenedor{
 	padding: 10px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
 }
 
-input{
-	margin-bottom: 15px;
-	padding: 15px;
-	font-size: 16px;
-	border-radius: 3px;
-	border: 1px solid darkgray;
-}
-
-.input-48{
-	width: 42%;
-}
-
-.input-100{
-	width: 95%;
-}
-
-.boton{
-	background: blue;
-	color: #fff;
-	margin: auto;
-	padding: 10px 40px;
-	cursor: pointer;
-	font-size: 20px;
-}
-
-.boton:active{
-	transform: scale(1.05);
-}
-
-.form_link{
-	width: 100%;
-	margin: 7px;
-	text-align: center;
-	font-size: 14px;
+td, th {
+  background-color: #4B088A;	
+  text-align: center;
+  border: solid 1px #ccc;
+  font-size: 15px;
+  padding: 4px;
+  border-collapse: collapse;
+  border-radius: 5px;
+  word-wrap: break-word;
 }
 
 /********** FOOTER ***********************************************/
@@ -402,4 +355,24 @@ footer{
 	height: 150px;
 	background-color: #9192E3;
 	clear: both;
+}
+
+/*Media queries*/
+@media screen and (max-width: 768px) {
+  tr {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  td, th {
+    display: block;
+    width: 33.333333333333%;
+    font-size: 20px;
+  }
+  th:first-child {
+    display: none;
+  }
+  aside{
+	display: none;
+}
 }
