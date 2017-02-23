@@ -327,6 +327,27 @@ section div{
 	margin-top: 5%;
 }
 
+ table {
+  width: 100%;
+}
+
+caption{
+	background-color: #819FF7;
+	text-align: center;
+	padding: 10px;
+}
+
+td, th {
+  background-color: #4B088A;	
+  text-align: center;
+  border: solid 1px #ccc;
+  font-size: 15px;
+  padding: 4px;
+  border-collapse: collapse;
+  border-radius: 5px;
+  word-wrap: break-word;
+}
+
 /********** FOOTER ***********************************************/
 
 footer{
@@ -336,12 +357,22 @@ footer{
 	clear: both;
 }
 
-
-
-
-
-
-
-
-
-
+/*Media queries*/
+@media screen and (max-width: 768px) {
+  tr {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  td, th {
+    display: block;
+    width: 33.333333333333%;
+    font-size: 20px;
+  }
+  th:first-child {
+    display: none;
+  }
+  aside{
+	display: none;
+}
+}
