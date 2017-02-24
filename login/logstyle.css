@@ -95,9 +95,6 @@ header div h1{
 	background-color: #DEFF00;
 }
 
-#botini{
-	text-decoration: none;
-}
 
 header div h2{
 	font-size: 1.1em;
@@ -327,6 +324,41 @@ section div{
 	margin-top: 5%;
 }
 
+form{
+	margin: auto;
+	width: 50%;
+	max-width: 500px;
+	background-color: #F3F3F3;
+	padding: 30px;
+	border: 1px solid rgba(0,0,0,0.3);
+}
+#formu{
+	text-align: center;
+	margin-bottom: 20px;
+	color: rgba(0,0,0,0.5);
+}
+
+input{
+	display: block;
+	padding: 10px;
+	width: 100%;
+	margin: 30px 0;
+	font-size: 20px;
+}
+
+input[type="submit"]{
+	background: linear-gradient(#FFDA63, #FFB940);
+	border: 0;
+	color: brown;
+	opacity: 0.8;
+	cursor: pointer;
+	border-radius: 10px;
+	margin-bottom: 0;
+}
+
+input[type="submit"]:hover{
+	opacity: 1;
+}
 /********** FOOTER ***********************************************/
 
 footer{
@@ -335,13 +367,3 @@ footer{
 	background-color: #9192E3;
 	clear: both;
 }
-
-
-
-
-
-
-
-
-
-

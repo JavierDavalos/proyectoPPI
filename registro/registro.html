@@ -7,7 +7,7 @@
         <title>Demo</title>
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/modernizr.js"></script>
-        <link rel="stylesheet" type="text/css" href="styles.css"/>
+        <link rel="stylesheet" type="text/css" href="regstyle.css"/>
     </head>
 
     <body>
@@ -17,13 +17,13 @@
                 <h1>Logo</h1>
             </div>
 
-    		<div id="headerDivLogin">
-                <a href="../login/login.html"><h2 id="botini">Login</h2></a>
-            </div>
+    		<!--<div id="headerDivLogin">
+    			<h2>Login</h2>
+    		</div>-->
 
-            <div id="headerDivSignUp">
-                <a href="../registro/registro.html"><h2>Sign Up</h2></a>
-            </div>
+    		<div id="headerDivSignUp">
+    			<a href="../index/index.html"<h2 id="botini">Inicio</h2></a>
+    		</div>
     	</header>
 
     	<!NAV*************************************************************************>
@@ -91,9 +91,9 @@
             <div id="portalesPago">
                 <p>Portales de pago personalizables</p>
             </div>
-            <div id="desarrolladores">
+             <a href="../desarrolladores/desarrolladores.html"><div id="desarrolladores">
                 <p>Desarrolladores</p>
-            </div>
+            </div></a>
     	</aside>
 
         
@@ -101,16 +101,16 @@
     	<aside id="asideDerecho">
             <div id="subContenido">
                 <div id="tituloSubcontenido">
-                    <h2>Desarrolladores</h2>
+                    <h2>¿Quiénes somos?</h2>
+                </div>
+                <a href="../empl/empl.html"><div class="listaSubcontenido">
+                    <p>Nuestros conductores</p>
+                </div></a>
+                <div class="listaSubcontenido">
+                    <p>¿Cómo funciona?</p>
                 </div>
                 <div class="listaSubcontenido">
-                    <p>Marlon</p>
-                </div>
-                <div class="listaSubcontenido">
-                    <p>Luis</p>
-                </div>
-                <div class="listaSubcontenido">
-                    <p>Javier</p>
+                    <p>¿Tengo garantía?</p>
                 </div>
             </div>
 
@@ -123,50 +123,20 @@
 
         <!SECTION**********************************************************************>
     	<section>
-            <div id="marlon">
-                <div class="imagenDesarrolador">
-                    <figure>
-                        <img src="imgs\marlon.jpg"/>
-                    </figure>
+            <h1 id="tit">Formulario de registro</h1>
+            <form action="" class="form-register">
+                <h2 class="titulo">CREAR UNA CUENTA</h2>
+                <div class="contenedor">
+                    <input type="text" name="nombre" placeholder="Nombre" class="input-48"/>
+                    <input type="text" name="apellido" placeholder="Apellido" class="input-48"/>
+                    <input type="email" name="correo" placeholder="Correo" class="input-100"/>
+                    <input type="text" name="usuario" placeholder="Usuario" class="input-48"/>
+                    <input type="password" name="contraseña" placeholder="Contraseña" class="input-48"/>
+                    <input type="text" name="telefono" placeholder="Telefono" class="input-100"/>
+                    <input type="submit" value="Registrarse" class="boton"/>
+                    <p class="form_link">¿Ya tienes una cuenta? <a href="../login/login.html">Ingresar a tu cuenta</a></p>
                 </div>
-                <div class="informacionDesarrollador">
-                    <p>Marlon Israel Nuño Rodríguez</p>
-                    <p>3312XXXXXX</p>
-                    <p>Ingeniería Informática</p>
-                    <p>Centro Universitario de Ciencias Exactas e Ingenierias</p>
-                    <p>Universidad de Guadalajara</p>
-                </div>
-            </div>
-
-            <div id="luis">
-                <div class="imagenDesarrolador">
-                    <figure>
-                        <img src="imgs\luis.jpg"/>
-                    </figure>
-                </div>
-                <div class="informacionDesarrollador">
-                    <p>Luis Ángel Espinosa Vega</p>
-                    <p>3312XXXXXX</p>
-                    <p>Ingeniería Informática</p>
-                    <p>Centro Universitario de Ciencias Exactas e Ingenierias</p>
-                    <p>Universidad de Guadalajara</p>
-                </div>
-            </div>
-
-            <div id="javier">
-                <div class="imagenDesarrolador">
-                    <figure>
-                        <img src="imgs\javier.jpg"/>
-                    </figure>
-                </div>
-                <div class="informacionDesarrollador">
-                    <p>Dávalos Espinosa Humberto Francisco Javier</p>
-                    <p>3312XXXXXX</p>
-                    <p>Ingeniería Informática</p>
-                    <p>Centro Universitario de Ciencias Exactas e Ingenierias</p>
-                    <p>Universidad de Guadalajara</p>
-                </div>
-            </div>
+            </form>
     	</section>
 
     	<!FOOTER**********************************************************************>

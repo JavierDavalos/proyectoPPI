@@ -327,6 +327,74 @@ section div{
 	margin-top: 5%;
 }
 
+#tit{
+	color: #000;
+	text-align: center;
+	padding: 4px;
+}
+.form-register{
+	width: 95%;
+	max-width: 500px;
+	margin: auto;
+	background: white;
+	border-radius: 6px; 
+}
+
+.titulo{
+	background-color: #5F04B4;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	font-weight: 100;
+	font-size: 30px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom: 5px solid blue;
+}
+
+.contenedor{
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+input{
+	margin-bottom: 15px;
+	padding: 15px;
+	font-size: 16px;
+	border-radius: 3px;
+	border: 1px solid darkgray;
+}
+
+.input-48{
+	width: 42%;
+}
+
+.input-100{
+	width: 95%;
+}
+
+.boton{
+	background: blue;
+	color: #fff;
+	margin: auto;
+	padding: 10px 40px;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.boton:active{
+	transform: scale(1.05);
+}
+
+.form_link{
+	width: 100%;
+	margin: 7px;
+	text-align: center;
+	font-size: 14px;
+}
+
 /********** FOOTER ***********************************************/
 
 footer{
@@ -335,13 +403,3 @@ footer{
 	background-color: #9192E3;
 	clear: both;
 }
-
-
-
-
-
-
-
-
-
-
