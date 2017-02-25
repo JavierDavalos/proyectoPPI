@@ -13,9 +13,11 @@ a{
 .padre{
 	display: flex;
 	flex-flow: column nowrap;
+	width: 100%;
+	height: 1300px;
 }
 .margen_interno{
-	padding: 0 50px;
+	
 }
 	.header{
 		background: url(../imagenes/image1.jpeg);
@@ -24,14 +26,14 @@ a{
 		background-size: cover;
 		display: flex;
 		flex-flow: column nowrap;
+		width: 100%;	
+		height: 45%;
 	}
 		.menu{
 			background: rgb(0,0,0,.1);
 			display: flex;
 			flex-flow: row nowrap;
-			height: 60px;
 			align-items: center;
-			border-bottom: 2px solid rgba(255, 255, 255, .5)
 		}
 			.logo{
 				flex: 1 1 auto;
@@ -46,7 +48,7 @@ a{
 				.nav a{
 					font-size: 11px;
 					text-transform: uppercase;
-					padding: 0 10px;
+					/*padding: 0 10px;*/
 					letter-spacing: 2px;
 				}
 				.nav a:hover{
@@ -59,7 +61,7 @@ a{
 				.social a{
 					font-size: 18px;
 					color: #fff;
-					padding: 0 5px;
+					/*padding: 0 5px;*/
 				}
 					.social a:hover{
 						color:#585858;
@@ -80,31 +82,49 @@ a{
 	.section{
 		background: #f7f7f7;
 		display: flex;
+		width: 100%;
+		height: 50%;
 	}
 		.articulos{
 			background: #f7f7f7;
 			flex:2 1 auto;
 			display: flex;
 			flex-flow: row wrap;
+			width: 80%;
+			height: 100%;
 		}
 			.articulo{
 				flex:1 1 40%;
 				color: #444;
 				font-size: 13px;
 				letter-spacing: 1px;
-				margin: 10px 10px 0 0px
+				/*margin: 10px 10px 0 0px*/
 				background: #ececec;
+				width: 50%;
+				height: 50%;
+				float: left;
 			}
-			.articulo img{
+
+			.articulo figure{
 				width: 100%;
-				border: 10px 0;
+				height: 60%;
+			}
+
+			.infoArticulo{
+				width: 100%;
+				height: 40%;
+			}
+
+			img{
+				width: 100%;
+				height: 100%;
 			}
 			.articulo a{
 				color: #fff;
 				font-size: 13px;
-				padding: 10px;
+				/*padding: 10px;*/
 				background: #000;
-				margin: 10px 0;
+				/*margin: 10px 0;*/
 				display: inline-block;
 			}
 			.articulo a:hover{
@@ -113,13 +133,13 @@ a{
 				h3{
 					color: #000;
 					font-size: 13px;
-					padding: 10px 0;
-					margin-top: 10px;
+					/*padding: 10px 0;*/
+					/*margin-top: 10px;*/
 				}
 				h2{
 					font-size: 25px;
 					text-transform: uppercase;
-					padding: 0px 0 10px 0;
+					/*padding: 0px 0 10px 0;*/
 					color: #000;
 				}
 			.navegacion{
@@ -129,30 +149,40 @@ a{
 				color: #000;
 				font-size: 11px;
 				text-transform: uppercase;
-				padding: 0 10px;
+				/*padding: 0 10px;*/
 				letter-spacing: 2px;
 			}
 		.aside{
 			flex: 1 1 auto;
-			margin: 10px 5px 10px 0;
+			/*margin: 10px 5px 10px 0;*/
+			width: 20%;
+			height: 100%;
 		}
-		.aside img{
+
+		figure{
 			width: 100%;
+			height: 100%;
+			margin-left: 0%;
+			margin-right: 0%;
 		}
+
+		
 		h4{
 			background: #000;
 			color: #fff;
-			padding: 10px;
+			/*padding: 10px;*/
 			text-transform: uppercase;
 		}
 			.publicidad{
-
+				width: 100%;
 			}
 	.footer{
 		background: #BDBDBD;
 		display: flex;
 		justify-content: center;
 		margin-top: 10px;
+		width: 100%;
+		height: 5%;
 	}
 		.pie{
 			text-align: center;
@@ -181,9 +211,9 @@ a{
 	text-align: center;
 	font-weight: 100;
 	font-size: 30px;
-	border-top-left-radius: 6px;
-	border-top-right-radius: 6px;
-	border-bottom: 5px solid #F2E0F7;
+	/*border-top-left-radius: 6px;*/
+	/*border-top-right-radius: 6px;*/
+	/*border-bottom: 5px solid #F2E0F7;*/
 }
 
 .contenedor{
@@ -198,7 +228,7 @@ input{
 	padding: 15px;
 	font-size: 16px;
 	border-radius: 3px;
-	border: 1px solid darkgray;
+	/*border: 1px solid darkgray;*/
 }
 
 .input-48{
@@ -289,6 +319,7 @@ td, th {
 	.section{
 		flex-direction: column;
 	}
+	
 	.menu{
 		flex-direction: column;
 		height: auto;
