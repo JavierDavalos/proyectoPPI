@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Formulario</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/formstyle.css">
+	<script src="validar.js"></script>
+</head>
+<body>
+	<div class="padre">
+		<header class="header">
+			
+			<div class="texto-principal">
+			</div>
+		</header>
+
+		<section class="section margen_interno">
+			<div class="articulos">
+				<article class="articulo">
+            
+            <form action="" method="post" class="form-register" onsubmit="return validar();">
+          
+                <div class="contenedor">
+
+                	<input type="text" id="nombre" name="nombre" placeholder="Nombre" class="input-48" />
+                    <input type="text" id="apellido"	name="apellido" placeholder="Apellido" class="input-48" />
+                    <input type="text" id="correo" name="correo" placeholder="Correo" class="input-48" />
+                    <input type="text"	id="usuario" name="usuario" placeholder="Usuario" class="input-48" />
+                    <input type="password"	id="contrasenia1" name="contrasenia1" placeholder="Contraseña" class="input-48" />
+                    <input type="password"	id="contrasenia2" name="contrasenia2" placeholder="Confirmar contraseña" class="input-48"/>
+
+                   <label for="tipo">Tipo de cuenta</label>
+                   <select name="users" id="tipo">
+                    	<option value=""></option>
+                    	<option value="Admin"> Administrador</option>
+                    	<option value="User">Usuario</option>
+                    
+                    <input type="submit" value="Registrar" class="boton"/>
+                  
+                </div>
+            </form>
+		
+		</article>
+		</section>	
+		<footer class="footer margen_interno">
+
+		</footer>	
+	</div>
+</body>
+</html>
