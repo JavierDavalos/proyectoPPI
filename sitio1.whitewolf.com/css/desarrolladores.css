@@ -1,0 +1,87 @@
+/***********************************************************************************/
+/*CSS DE SECTION EN DESARROLLADORES*************************************************/
+/***********************************************************************************/
+
+/***********************************************************************************/
+/*ANCHO 10px EN ADELANTE************************************************************/
+/***********************************************************************************/
+@media all and (min-width: 10px){
+	.sectionDesarrolladores{
+		width: 95%;
+		margin-left: 5%;
+	}
+
+	.sectionDesarrolladores article{
+		width: 100%;
+		height: 400px;
+	}
+
+	.sectionDesarrolladores article div{
+		height: 190px;
+		margin-top: 10px;
+	}
+
+	.sectionDesarrolladores .imagen{
+		width: 190px;
+	}
+
+	.sectionDesarrolladores .tabla{
+		width: 260px;
+		background-color: #BDBDBD;
+	}
+
+	.sectionDesarrolladores table{
+		width: 100%;
+		height: 90%;
+	}
+
+	.sectionDesarrolladores caption{
+		background: blue;
+		color: white;
+	}
+
+	.sectionDesarrolladores td{
+		background: lightblue;
+	}
+
+	.sectionDesarrolladores td a{
+		font-size: 1.5em;
+		color: gray;
+		text-decoration: none;
+	}
+}
+
+/***********************************************************************************/
+/*ANCHO 550px EN ADELANTE***********************************************************/
+/***********************************************************************************/
+@media all and (min-width: 550px){
+	.sectionDesarrolladores article{
+		height: 200px;
+	}
+
+	.sectionDesarrolladores article div{
+		float: left;
+	}
+
+	.sectionDesarrolladores .tabla{
+		width: 50%;
+		margin-left: 2%;
+	}
+}
+
+/***********************************************************************************/
+/*ANCHO 900px EN ADELANTE***********************************************************/
+/***********************************************************************************/
+@media all and (min-width: 900px){
+	.sectionDesarrolladores{
+		width: 70%;
+	}
+
+	.sectionDesarrolladores .imagen{
+		width: 30%;
+	}
+
+	.sectionDesarrolladores .tabla{
+		width: 68%;
+	}
+}

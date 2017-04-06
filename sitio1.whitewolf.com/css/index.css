@@ -1,0 +1,101 @@
+/***********************************************************************************/
+/*CSS DE SECTION EN INDEX***********************************************************/
+/***********************************************************************************
+
+/***********************************************************************************/
+/*ANCHO 10px EN ADELANTE************************************************************/
+/***********************************************************************************/
+@media all and (min-width: 10px){
+	.sectionIndex{
+		width: 95%;
+		margin-left: 5%;
+	}
+
+	.sectionIndex h1{
+		font-size: .9em;
+	}
+
+	.sectionIndex article{
+		width: 200px;
+		margin-top: 2%;
+		margin-left: 1%;
+	}
+
+	.sectionIndex article div{
+		width: 100%;
+	}
+
+	.sectionIndex .tituloArticulo{
+		height: 25px;
+		text-align: center;
+	}
+	
+	.sectionIndex .imagenArticulo{
+		height: 180px;
+	}
+
+	.sectionIndex .articuloPrincipal .imagenArticulo{
+		height: 270px;
+	}
+
+	.sectionIndex .imagenArticulo figure{
+		width: 100%;
+		height: 160px;
+	}
+
+	.sectionIndex .articuloPrincipal div figure{
+		height: 250px;
+	}
+
+	.sectionIndex .imagenArticulo figure img{
+		margin-top: 2.5%;
+	}
+
+	.sectionIndex .imagenArticulo figure img:hover{
+		-webkit-transform: scale(1.04);
+		-moz-transform: scale(1.04);
+		-ms-transform: scale(1.04);
+		-o-transform: scale(1.04);
+		transform: scale(1.04);
+	}
+	
+	.sectionIndex .descripcionArticulo{
+		height: 80px;
+	}
+}
+
+/***********************************************************************************/
+/*ANCHO 297px EN ADELANTE***********************************************************/
+/***********************************************************************************/
+@media all and (min-width: 300px){
+	.sectionIndex .articuloPrincipal{
+		width: 72%;
+	}
+}
+
+/***********************************************************************************/
+/*ANCHO 500px EN ADELANTE***********************************************************/
+/***********************************************************************************/
+@media all and (min-width: 500px){
+	.sectionIndex article{
+		float: left;
+	}
+}
+
+/***********************************************************************************/
+/*ANCHO 600px EN ADELANTE***********************************************************/
+/***********************************************************************************/
+@media all and (min-width: 600px){
+	.sectionIndex{
+		width: 70%;
+	}
+
+	.sectionIndex article{
+		width: 48%;
+	}
+
+	.sectionIndex .articuloPrincipal{
+		width: 96%;
+	}
+}
+

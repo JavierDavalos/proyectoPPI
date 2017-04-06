@@ -1,0 +1,57 @@
+/***********************************************************************************/
+/*CSS DE SECTION EN NOSOTROS********************************************************/
+/***********************************************************************************
+
+/***********************************************************************************/
+/*ANCHO 10px EN ADELANTE************************************************************/
+/***********************************************************************************/
+@media all and (min-width: 10px){
+	.sectionEntrar article{
+		width: 70%;
+		margin-left: 5%;
+
+		border: 1px solid red;
+	}
+
+	.sectionEntrar form{
+		margin: auto;
+		width: 50%;
+		max-width: 500px;
+		background-color: #F3F3F3;
+
+		border: 1px solid rgba(0,0,0,0.3);
+	}
+
+	.sectionEntrar h2{
+		text-align: center;
+		margin-bottom: 20px;
+		color: rgba(0,0,0,0.5);
+
+		border: 1px solid green;
+	}
+
+	.sectionEntrar input{
+		display: block;
+		width: 100%;
+		margin: 30px 0;
+		font-size: 20px;
+
+		border: 1px solid black;
+	}
+
+	.sectionEntrar input[type="submit"]{
+		background: linear-gradient(#FFDA63, #FFB940);
+		border: 0;
+		color: brown;
+		opacity: 0.8;
+		cursor: pointer;
+		border-radius: 10px;
+		margin-bottom: 0;
+
+		border: 1px solid blue;
+	}
+
+	.sectionEntrar input[type="submit"]:hover{
+		opacity: 1;
+	}
+}
